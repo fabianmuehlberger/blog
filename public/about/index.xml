@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Abouts on blog | fabian muehlberger</title>
+    <link>https://fabianmuehlberger.github.io/blog/about/</link>
+    <description>Recent content in Abouts on blog | fabian muehlberger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://fabianmuehlberger.github.io/blog/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://fabianmuehlberger.github.io/blog/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabianmuehlberger.github.io/blog/about/about/</guid>
+      <description>Fabian Muehlberger
+Developer, Maker Passionate about technology, Linux, open-source electronics and embedded systems.
+fabianmuehlberger.dev mail@fabianmuehlberger.dev Austria, Vienna
+All rights reserved. © Fabian Muehlberger 2023.</description>
+    </item>
+    
+  </channel>
+</rss>

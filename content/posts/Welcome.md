@@ -2,10 +2,11 @@
 title = 'Welcome'
 date = 2023-10-25T12:18:43+02:00
 draft = false
+weight = 10
 +++
 
 
-## Welcome
+## Welcome   
 
 This blog will share my experiences and ideas as I work on this project, as well as other topics related to programming, hardware development.
 
