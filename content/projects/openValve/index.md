@@ -1,8 +1,11 @@
-+++
-title = 'OpenValve'
-date = 2023-10-25T12:27:09+02:00
-draft = false
-+++
+---
+title: "OpenValve"
+date: 2023-10-25T12:27:09+02:00
+draft: false
+menu: 
+    main:
+        parent: projects
+---
 
 
 ## OpenValve

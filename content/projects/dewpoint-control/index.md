@@ -1,8 +1,12 @@
-+++
-title = 'Dewpoint Control'
-date = 2023-10-30T12:09:44+01:00
-draft = false
-+++
+---
+title: Dewpoint Control
+date: 2023-10-30T12:09:44+01:00
+draft: false
+menu: 
+    main:
+        parent: projects
+---
+
 
 ## Introduction 
 During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.
