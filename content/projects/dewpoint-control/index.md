@@ -1,7 +1,7 @@
 +++
-title = 'dewpoint-control-upy'
+title = 'Dewpoint Control'
 date = 2023-10-30T12:09:44+01:00
-draft = true
+draft = false
 +++
 
 ## Introduction 
@@ -34,3 +34,5 @@ A dew point controller can help to prevent condensation by ventilating the garag
 - Power Supply [Meanwell IRM 30-5st](https://www.meanwell-web.com/en-gb/ac-dc-single-output-encapsulated-power-supply-irm--30--5st)
 
 
+![enclosure open](images/enclosure_open.jpg)
+![enclosure front](images/enclosure_front.jpg)

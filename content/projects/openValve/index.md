@@ -1,7 +1,7 @@
 +++
 title = 'OpenValve'
 date = 2023-10-25T12:27:09+02:00
-draft = true
+draft = false
 +++
 
 
@@ -10,8 +10,9 @@ draft = true
 OpenValve is a low-cost, open source smart radiator valve that solves these problems. It is based on the ESP32 microcontroller and can be controlled using home assistant or other home automation systems.   
 The project is available on [GitHub](https://github.com/fabianmuehlberger/OpenValve)
 
+![prototype](images/prototype.jpg)
 
-![assambly](/static/assembly.png)
+
 
 ### The Problem 
 
@@ -31,5 +32,7 @@ Smart radiator valves are a great way to save energy and improve your home comfo
 
 ### Current Status
 
-The project is currently in the prototyping phase. The PCB design is complete and the first prototype has been assembled. The firmware is still in development and the first version is expected to be released in the next few weeks.
+
+The project is currently in the prototyping phase. The PCB design is complete and the first prototype has been assembled. 
+
 
