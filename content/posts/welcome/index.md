@@ -2,8 +2,8 @@
 title: "Welcome"
 date: 2023-10-25T12:18:43+02:00
 draft: false
-weight: 10
-menu: main
+weight: 2
+menu: posts
 ---
 
 

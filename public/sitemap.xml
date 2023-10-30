@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fabianmuehlberger.github.io/blog/blog/welcome/</loc>
+    <loc>https://fabianmuehlberger.github.io/blog/posts/welcome/</loc>
     <lastmod>2023-10-25T12:18:43+02:00</lastmod>
   </url><url>
     <loc>https://fabianmuehlberger.github.io/blog/</loc>
@@ -20,7 +20,7 @@
     <loc>https://fabianmuehlberger.github.io/blog/projects/openvalve/</loc>
     <lastmod>2023-10-25T12:27:09+02:00</lastmod>
   </url><url>
-    <loc>https://fabianmuehlberger.github.io/blog/blog/</loc>
+    <loc>https://fabianmuehlberger.github.io/blog/posts/</loc>
     <lastmod>2023-10-25T12:18:43+02:00</lastmod>
   </url><url>
     <loc>https://fabianmuehlberger.github.io/blog/categories/</loc>

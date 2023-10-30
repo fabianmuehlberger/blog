@@ -1,0 +1,19 @@
+baseURL: 'https://fabianmuehlberger.github.io/blog/'
+languageCode: 'en-us'
+title: 'blog | fabian muehlberger'
+theme: 'PaperMod'
+
+menu:
+  main:
+  - name: home
+    pageRef: /
+    weight: 1
+  - name: posts
+    pageRef: /posts
+    weight: 20
+  - name: projects
+    pageRef: /projects
+    weight: 50
+  - name: about
+    pageRef: /about
+    weight: 90

@@ -2,9 +2,7 @@
 title: Dewpoint Control
 date: 2023-10-30T12:09:44+01:00
 draft: false
-menu: 
-    main:
-        parent: projects
+menu: projects
 ---
 
 
