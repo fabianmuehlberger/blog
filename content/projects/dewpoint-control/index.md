@@ -33,8 +33,12 @@ A dew point controller can help to prevent condensation by ventilating the garag
 - I2C Hub [Grove I2C Hub](https://wiki.seeedstudio.com/Grove-8-Channel-I2C-Multiplexer-I2C-Hub-TCA9548A/)
 - Display Generic 4x16 LCD with I2C interface
 - Sensors [AM2315](https://www.adafruit.com/product/1293) discontinued, but there are many alternatives
+EDIT: Switch to SHT31 Sensor since the AM2315 is no longer available.
 - Power Supply [Meanwell IRM 30-5st](https://www.meanwell-web.com/en-gb/ac-dc-single-output-encapsulated-power-supply-irm--30--5st)
 
 
 
 ![enclosure front](images/enclosure_front.jpg)
+
+
+[update](update.md)
