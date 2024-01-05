@@ -36,5 +36,6 @@ A dew point controller can help to prevent condensation by ventilating the garag
 - Power Supply [Meanwell IRM 30-5st](https://www.meanwell-web.com/en-gb/ac-dc-single-output-encapsulated-power-supply-irm--30--5st)
 
 
-![enclosure open](images/enclosure_open.jpg)
+<!-- ![enclosure open](images/enclosure_open.jpg) -->
+{{< lazyimg src="images/enclosure_open.jpg" alt="enclosure open" >}}
 ![enclosure front](images/enclosure_front.jpg)
