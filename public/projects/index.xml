@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on blog | fabian muehlberger</title>
     <link>https://fabianmuehlberger.github.io/blog/projects/</link>
     <description>Recent content in Projects on blog | fabian muehlberger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Oct 2023 12:09:44 +0100</lastBuildDate><atom:link href="https://fabianmuehlberger.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Oct 2023 12:09:44 +0100</lastBuildDate>
+    <atom:link href="https://fabianmuehlberger.github.io/blog/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dewpoint Control</title>
       <link>https://fabianmuehlberger.github.io/blog/projects/dewpoint-control/</link>
       <pubDate>Mon, 30 Oct 2023 12:09:44 +0100</pubDate>
-      
       <guid>https://fabianmuehlberger.github.io/blog/projects/dewpoint-control/</guid>
       <description>Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.
 The github repository can be found dewpoint-control-upy
 For this project I took inspiration from the project presented in the Make Magazine.</description>
     </item>
-    
     <item>
       <title>OpenValve</title>
       <link>https://fabianmuehlberger.github.io/blog/projects/openvalve/</link>
       <pubDate>Wed, 25 Oct 2023 12:27:09 +0200</pubDate>
-      
       <guid>https://fabianmuehlberger.github.io/blog/projects/openvalve/</guid>
       <description>OpenValve OpenValve is a low-cost, open source smart radiator valve that solves these problems. It is based on the ESP32 microcontroller and can be controlled using home assistant or other home automation systems.
 The project is available on GitHub
 The Problem Smart radiator valves are a great way to save energy and improve your home comfort. However, many smart radiator valves on the market are expensive and closed-source. This means that you can&amp;rsquo;t modify or extend their functionality, and you&amp;rsquo;re locked into the manufacturer&amp;rsquo;s ecosystem.</description>
     </item>
-    
   </channel>
 </rss>
