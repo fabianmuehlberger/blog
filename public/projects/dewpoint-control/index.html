@@ -102,8 +102,8 @@ For this project I took inspiration from the project presented in the Make Magaz
   "keywords": [
     
   ],
-  "articleBody": "Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.\nThe github repository can be found dewpoint-control-upy\nFor this project I took inspiration from the project presented in the Make Magazine. Since I never worked with micropython before, I saw this as a good opportunity to learn something new.\nHow it works The dew point refers to the temperature at which the air becomes saturated with water vapor. When the air temperature drops below its dew point, water vapor condenses into liquid water. This is the reason you see condensation on your windows in the morning, when the outside air is cooler than the inside air.\nIn the winter, when you heat your garage, the absolute humidity in the air increases. This is because warm air can hold more water vapor than cold air. When you turn off the heat, the air cools down and the relative humidity increases. If the relative humidity gets high enough, the air will become saturated and water will condense on surfaces.\nThis condensation can lead to corrosion on metal, and can also damage other materials, such as wood and drywall.\nA dew point controller can help to prevent condensation by ventilating the garage when the dew point inside is higher than the dew point outside. This brings in drier air from outside, which helps to reduce the humidity inside the garage.\nWiki\nHardware MCU M5Stack ATOM Lite ESP32 Development Kit Relays ATOM SWITCH I2C Hub Grove I2C Hub Display Generic 4x16 LCD with I2C interface Sensors AM2315 discontinued, but there are many alternatives Power Supply Meanwell IRM 30-5st ",
-  "wordCount" : "306",
+  "articleBody": "Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.\nThe github repository can be found dewpoint-control-upy\nFor this project I took inspiration from the project presented in the Make Magazine. Since I never worked with micropython before, I saw this as a good opportunity to learn something new.\nHow it works The dew point refers to the temperature at which the air becomes saturated with water vapor. When the air temperature drops below its dew point, water vapor condenses into liquid water. This is the reason you see condensation on your windows in the morning, when the outside air is cooler than the inside air.\nIn the winter, when you heat your garage, the absolute humidity in the air increases. This is because warm air can hold more water vapor than cold air. When you turn off the heat, the air cools down and the relative humidity increases. If the relative humidity gets high enough, the air will become saturated and water will condense on surfaces.\nThis condensation can lead to corrosion on metal, and can also damage other materials, such as wood and drywall.\nA dew point controller can help to prevent condensation by ventilating the garage when the dew point inside is higher than the dew point outside. This brings in drier air from outside, which helps to reduce the humidity inside the garage.\nWiki\nHardware MCU M5Stack ATOM Lite ESP32 Development Kit Relays ATOM SWITCH I2C Hub Grove I2C Hub Display Generic 4x16 LCD with I2C interface Sensors AM2315 discontinued, but there are many alternatives EDIT: Switch to SHT31 Sensor since the AM2315 is no longer available. Power Supply Meanwell IRM 30-5st update\n",
+  "wordCount" : "319",
   "inLanguage": "en",
   "datePublished": "2023-10-30T12:09:44+01:00",
   "dateModified": "2023-10-30T12:09:44+01:00",
@@ -214,11 +214,13 @@ For this project I took inspiration from the project presented in the Make Magaz
 <li>Relays <a href="https://shop.m5stack.com/products/atom-hub-switch-kit">ATOM SWITCH</a></li>
 <li>I2C Hub <a href="https://wiki.seeedstudio.com/Grove-8-Channel-I2C-Multiplexer-I2C-Hub-TCA9548A/">Grove I2C Hub</a></li>
 <li>Display Generic 4x16 LCD with I2C interface</li>
-<li>Sensors <a href="https://www.adafruit.com/product/1293">AM2315</a> discontinued, but there are many alternatives</li>
+<li>Sensors <a href="https://www.adafruit.com/product/1293">AM2315</a> discontinued, but there are many alternatives
+EDIT: Switch to SHT31 Sensor since the AM2315 is no longer available.</li>
 <li>Power Supply <a href="https://www.meanwell-web.com/en-gb/ac-dc-single-output-encapsulated-power-supply-irm--30--5st">Meanwell IRM 30-5st</a></li>
 </ul>
 <p><img loading="lazy" src="images/enclosure_front.jpg" alt="enclosure front"  />
 </p>
+<p><a href="update.md">update</a></p>
 
 
   </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Update'
+title: Update
 date: 2024-01-05T11:08:52+01:00
 draft: false
 menu: projects
