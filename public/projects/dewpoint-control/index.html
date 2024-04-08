@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Dewpoint Control | blog | fabian muehlberger</title>
 <meta name="keywords" content="">
 <meta name="description" content="Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.
 The github repository can be found dewpoint-control-upy
 For this project I took inspiration from the project presented in the Make Magazine.">
 <meta name="author" content="">
-<link rel="canonical" href="https://fabianmuehlberger.github.io/blog/projects/dewpoint-control/">
-<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.2d50b1531bd1b3146d65c5543bd298f7f982786aadee4c223cb3a1cb51906106.css" integrity="sha256-LVCxUxvRsxRtZcVUO9KY9/mCeGqt7kwiPLOhy1GQYQY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://fabianmuehlberger.github.io/blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://fabianmuehlberger.github.io/blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://fabianmuehlberger.github.io/blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://fabianmuehlberger.github.io/blog/apple-touch-icon.png">
-<link rel="mask-icon" href="https://fabianmuehlberger.github.io/blog/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/blog/projects/dewpoint-control/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/projects/dewpoint-control/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,71 +57,7 @@ For this project I took inspiration from the project presented in the Make Magaz
         }
 
     </style>
-</noscript><meta property="og:title" content="Dewpoint Control" />
-<meta property="og:description" content="Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.
-The github repository can be found dewpoint-control-upy
-For this project I took inspiration from the project presented in the Make Magazine." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://fabianmuehlberger.github.io/blog/projects/dewpoint-control/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2023-10-30T12:09:44+01:00" />
-<meta property="article:modified_time" content="2023-10-30T12:09:44+01:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Dewpoint Control"/>
-<meta name="twitter:description" content="Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.
-The github repository can be found dewpoint-control-upy
-For this project I took inspiration from the project presented in the Make Magazine."/>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Projects",
-      "item": "https://fabianmuehlberger.github.io/blog/projects/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Dewpoint Control",
-      "item": "https://fabianmuehlberger.github.io/blog/projects/dewpoint-control/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Dewpoint Control",
-  "name": "Dewpoint Control",
-  "description": "Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.\nThe github repository can be found dewpoint-control-upy\nFor this project I took inspiration from the project presented in the Make Magazine.",
-  "keywords": [
-    
-  ],
-  "articleBody": "Introduction During covid, I used my time renovating the garage and building a woodworking workshop. During winter I noticed that the humidity in the garage was very high. I had to open the windows every day to get the humidity down. I wanted to automate this process and build a dewpoint controller.\nThe github repository can be found dewpoint-control-upy\nFor this project I took inspiration from the project presented in the Make Magazine. Since I never worked with micropython before, I saw this as a good opportunity to learn something new.\nHow it works The dew point refers to the temperature at which the air becomes saturated with water vapor. When the air temperature drops below its dew point, water vapor condenses into liquid water. This is the reason you see condensation on your windows in the morning, when the outside air is cooler than the inside air.\nIn the winter, when you heat your garage, the absolute humidity in the air increases. This is because warm air can hold more water vapor than cold air. When you turn off the heat, the air cools down and the relative humidity increases. If the relative humidity gets high enough, the air will become saturated and water will condense on surfaces.\nThis condensation can lead to corrosion on metal, and can also damage other materials, such as wood and drywall.\nA dew point controller can help to prevent condensation by ventilating the garage when the dew point inside is higher than the dew point outside. This brings in drier air from outside, which helps to reduce the humidity inside the garage.\nWiki\nHardware MCU M5Stack ATOM Lite ESP32 Development Kit Relays ATOM SWITCH I2C Hub Grove I2C Hub Display Generic 4x16 LCD with I2C interface Sensors AM2315 discontinued, but there are many alternatives EDIT: Switch to SHT31 Sensor since the AM2315 is no longer available. Power Supply Meanwell IRM 30-5st update\n",
-  "wordCount" : "319",
-  "inLanguage": "en",
-  "datePublished": "2023-10-30T12:09:44+01:00",
-  "dateModified": "2023-10-30T12:09:44+01:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://fabianmuehlberger.github.io/blog/projects/dewpoint-control/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "blog | fabian muehlberger",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://fabianmuehlberger.github.io/blog/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -138,7 +75,7 @@ For this project I took inspiration from the project presented in the Make Magaz
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://fabianmuehlberger.github.io/blog/" accesskey="h" title="blog | fabian muehlberger (Alt + H)">blog | fabian muehlberger</a>
+            <a href="http://localhost:1313/blog/" accesskey="h" title="blog | fabian muehlberger (Alt + H)">blog | fabian muehlberger</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -164,22 +101,22 @@ For this project I took inspiration from the project presented in the Make Magaz
         </div>
         <ul id="menu">
             <li>
-                <a href="https://fabianmuehlberger.github.io/blog/" title="blog | fabian muehlberger">
+                <a href="http://localhost:1313/blog/" title="home">
                     <span>home</span>
                 </a>
             </li>
             <li>
-                <a href="https://fabianmuehlberger.github.io/blog/posts/" title="Posts">
+                <a href="http://localhost:1313/blog/posts/" title="posts">
                     <span>posts</span>
                 </a>
             </li>
             <li>
-                <a href="https://fabianmuehlberger.github.io/blog/projects/" title="Projects">
+                <a href="http://localhost:1313/blog/projects/" title="projects">
                     <span>projects</span>
                 </a>
             </li>
             <li>
-                <a href="https://fabianmuehlberger.github.io/blog/about/" title="About">
+                <a href="http://localhost:1313/blog/about/" title="about">
                     <span>about</span>
                 </a>
             </li>
@@ -233,7 +170,7 @@ EDIT: Switch to SHT31 Sensor since the AM2315 is no longer available.</li>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://fabianmuehlberger.github.io/blog/">blog | fabian muehlberger</a></span>
+    <span>&copy; 2024 <a href="http://localhost:1313/blog/">blog | fabian muehlberger</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

@@ -2,10 +2,10 @@
 title: Update
 date: 2024-01-05T11:08:52+01:00
 draft: false
-menu: projects
+menu: posts
 ---
 
-# Small Update on Dewpoint Control
+## Small Update on Dewpoint Control
 
 Since I initally started the project and the installation, one of the sensors stopped working. The original TH sensor was no longer available and I had to find a replacement for it. 
 
